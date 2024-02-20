@@ -22,26 +22,6 @@ const messages = [
     user: "Frodnar",
     added: new Date("September 20, 2018"),
   },
-  {
-    text: "I can't decide if I should join the Stormcloaks or the Imperials.",
-    user: "Rikke",
-    added: new Date("November 5, 2019"),
-  },
-  {
-    text: "Dragons in Skyrim are both terrifying and majestic creatures.",
-    user: "Delphine",
-    added: new Date("February 10, 2021"),
-  },
-  {
-    text: "I always feel like a true adventurer when exploring Skyrim's dungeons.",
-    user: "Hadvar",
-    added: new Date("May 25, 2022"),
-  },
-  {
-    text: "Skyrim belongs to the Nords!",
-    user: "Ulfric Stormcloak",
-    added: new Date(),
-  },
 ];
 
 /* GET home page. */
