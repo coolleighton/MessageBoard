@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  a(href='/form')
+   button add new message 
+  each message in messages
+   h2= message.text
+   p Written by: #{message.user}
+   p Written on: #{message.added}

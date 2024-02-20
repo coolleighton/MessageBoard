@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1 add new message here
+  form(method="POST", action="/form")
+    input(type="text", name="messageText", placeholder="Enter your message")
+    input(type="text", name="messageUser", placeholder="Enter Name")
+    button(type="submit") Submit
